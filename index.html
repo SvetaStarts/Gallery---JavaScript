@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>GALLERY</h1>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery d-flex justify-content-center flex-wrap">
+                        <div class="imgMain">
+                            <img src="image/1.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-1').innerHTML='3D LOGO MOCKUP';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-1').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-1">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/2.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-2').innerHTML='MINIMALISTIC DESIGN';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-2').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-2">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/3.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-3').innerHTML='MOCKUP WITH LOGO';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-3').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-3">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/4.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-4').innerHTML='IDENTITY DESIGN';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-4').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-4">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/5.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-5').innerHTML='LUXURY BLACK FACADE';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-5').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-5">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/6.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-6').innerHTML='SHOPPING BAG';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-6').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-6">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/7.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-7').innerHTML='BUSINESS CARD';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-7').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-7">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/8.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-8').innerHTML='MODERN DESIGN';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-8').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-8">  </div>
+                        </div>
+                        <div class="imgMain">
+                            <img src="image/9.jpg" class ="image_html" alt="Изображение" onclick="showGallery(1)"
+                            onmouseover="document.getElementById('hiddenTxt-9').innerHTML='MODERN FACADE';
+                                        this.style.opacity=.3;" 
+                            onmouseout="document.getElementById('hiddenTxt-9').innerHTML=' ';
+                            this.style.opacity=1;" >
+                            <div class="hiddenTxt" id="hiddenTxt-9">  </div>
+                        </div>
+                        
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">    
+    <div class="row">        
+        <div class="modalImage">
+            <div class="toggle d-flex justify-content-end">
+                
+                <div class="toggleIcon">
+                    <i class="bi bi-search" id="lupe" onclick="lupeImage()"></i>
+                    <i class="bi bi-play" onclick="startTimer()" id="start"></i>
+                    <i class="bi bi-stop-fill" onclick="stopTimer()" id="stop"></i>
+                    <i class="bi bi-fullscreen" data-toggle-fullscreen></i>                    
+                    <i class="bi bi-border-style" id = "onlyImage" onclick="onlyImage()"></i>
+                    <i class="bi bi-x-lg"  id = "iconClose" onclick="closeAll()"></i>
+                </div>
+            </div>
+
+            <div class="slideshow_container">
+                <div class="mySlides">
+                    <div class="number">
+                        1/9
+                    </div>
+                    <img src="image/1.jpg" class="imgSlide"  alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        2/9
+                    </div>
+                    <img src="image/2.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        3/9
+                    </div>
+                    <img src="image/3.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        4/9
+                    </div>
+                    <img src="image/4.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        5/9
+                    </div>
+                    <img src="image/5.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        6/9
+                    </div>
+                    <img src="image/6.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        7/9
+                    </div>
+                    <img src="image/7.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        8/9
+                    </div>
+                    <img src="image/8.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+                <div class="mySlides">
+                    <div class="number">
+                        9/9
+                    </div>
+                    <img src="image/9.jpg" class="imgSlide" alt="Изображение">            
+                </div>
+              
+                            <div  class="prev" onclick = "plusSlides(-1)">&#10094</div>
+                            <div  class="next" onclick = "plusSlides(1)">&#10095</div>
+           
+                
+            </div>
+            <br>
+            
+            <div class="imgDot" style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)">
+                    <img src="image/1.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>
+                <span class="dot" onclick="currentSlide(2)">
+                    <img src="image/2.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>
+                <span class="dot" onclick="currentSlide(3)">
+                    <img src="image/3.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>
+                <span class="dot" onclick="currentSlide(4)">
+                    <img src="image/4.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>
+                <span class="dot" onclick="currentSlide(5)">
+                    <img src="image/5.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>
+                <span class="dot" onclick="currentSlide(6)">
+                    <img src="image/6.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>   
+                <span class="dot" onclick="currentSlide(7)">
+                    <img src="image/7.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span> 
+                <span class="dot" onclick="currentSlide(8)">
+                    <img src="image/8.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span> 
+                <span class="dot" onclick="currentSlide(9)">
+                    <img src="image/9.jpg" class="imgThumb" alt="Миниатюры изображений">
+                </span>      
+        
+            </div>
+          
+        </div>       
+    </div>
+    </div>
+   
+    </section> 
+
+    <script src="js/script.js"></script>
+</body>
+</html>

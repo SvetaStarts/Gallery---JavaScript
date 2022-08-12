@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header, section{
+    background-color:#333333;
+}
+h1{
+    text-align: center;
+    color:beige;
+    padding-top: 30px;
+}
+.image_html{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 0;
+    position: relative;
+    
+}
+
+.hiddenTxt{
+   position: absolute;
+    margin-top: -160px;
+    margin-left: 18px;
+    text-transform: uppercase;
+    color: beige;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.container{
+    width: 960px;
+}
+.gallery{
+    margin: 30px;
+}
+.image{
+    
+    width: 100%;
+    height: 100%;
+}
+.modalImage{
+    background: rgba(0,0,0,.98);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.toggleIcon i{
+    color: beige;
+    margin-left: 15px;
+}
+i:hover{
+    cursor: pointer;
+    color:grey;
+}
+.toggleIcon{
+    padding: 10px;
+    font-size: 20px;
+}
+.number{
+    color: white;
+    font-size: 20px;
+}
+.imgThumb{
+    width: 100px;
+    border: none;
+}
+
+
+
+
+/*слайдер*/
+.slideshow_container{
+    width: 1000px;
+    
+    margin: auto;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.prev{
+    left: 15%;
+}
+.next{
+    left:85%;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+ 
+    color: black;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.dot{
+    cursor: pointer;
+    display: inline-block;
+    transition: all .6s ease;
+    margin: 10px 0 30px;
+
+}
+.dot img{
+    width: 110px;
+    height: 70px;
+    margin: 0 5px;
+}
+.imgDot{
+    display: block;
+}
+
+.active, .dot:hover{
+    transform: scale(1.15);
+   
+}
+.imgSlide{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.modalImage{
+    display: none;
+}
+
+/*{
+    border: 1px solid red;;
+}
